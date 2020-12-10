@@ -1,5 +1,4 @@
 # fiz_contact_form
-React
 
 ### start up instructions:
 * run "npm install" in root directory of fiz-biz
