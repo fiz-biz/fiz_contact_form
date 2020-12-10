@@ -1,4 +1,4 @@
-# fiz_contact_form
+# fiz contact form
 
 ### start up instructions:
 * run "npm install" in root directory of fiz-biz
