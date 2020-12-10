@@ -1,0 +1,62 @@
+.App {
+  font-family: Arial, serif;
+}
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #F6F6F6;
+}
+
+.contact_container h1 {
+  font-size: 38px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+@media (max-width: 850px) {
+  .contact_form {
+    width: 75%
+  }
+}
+
+@media (max-width: 580px) {
+  .contact_form {
+    width: auto;
+  }
+}
+
+.contact_form label {
+  font-size: 16px;
+}
+
+.contact_form input {
+  margin: 1rem 0;
+  background-color: #ffffff;
+  border: #0087aa solid 3px;
+  height: 36px;
+}
+
+.contact_form textarea {
+  margin: 1rem 0;
+  background-color: #ffffff;
+  border: #0087aa solid 3px;
+  height: 10rem;
+}
+
+.contact_form button {
+  color: #ffffff;
+  background-color: #0087aa;
+  height: 36px;
+  margin-top: 1rem;
+}
+
+.contact_form button:hover {
+  background-color: #1997b7;
+}
