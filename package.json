@@ -1,0 +1,20 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "mimicing a node express server with mock db as json file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiz-biz/frontend.git"
+  },
+  "author": "Joe-Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiz-biz/frontend/issues"
+  },
+  "homepage": "https://github.com/fiz-biz/frontend#readme"
+}
